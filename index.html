@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <div class="container flex-row items-center justify-center">
+            <div class="flex-col box-container justify-center  items-center ">
+                <div class="flex-row justify-center items-center " >
+                    <div class="">
+                        <div class="input-group flex-col items-end w-max">
+                            <div class="">
+                                <label for="first-num">First number</label>
+                                <input class="input-num" type="text" id="first-num" placeholder="Enter first number">
+                            </div>
+                            <div>
+                                <label for="second-num">Second number</label>
+                                <input class="input-num" type="text" id="second-num" placeholder="Enter second number">
+                            </div>
+                            <div>
+                                <label for="result-num">Result</label>
+                                <input class="input-num" type="text" id="result-num" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-lg flex-col items-center justify-center">
+                        <div class="radio-group">
+                            <div>
+                                <input type="radio" name="operation" value="add" id="add">
+                                <label for="add">Add</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="operation" value="minus" id="minus">
+                                <label for="minus">Minus</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="operation" value="mul" id="multiply">
+                                <label for="multiply">Multiply</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="operation" value="div" id="divide">
+                                <label for="divide">Divide</label>
+                            </div>
+                        </div>
+                        <div id="calculate-btn" class="p-sm w-full  ">
+                            <button class="button w-full">Calculate</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex-row  w-max " >
+                    <span class="w-max"><b>**Notification: </b><span  id="noti" class="notification"></span></span>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+
+</html>
