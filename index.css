@@ -39,7 +39,7 @@
     gap: 15px;
 }
 .box-container{
-    background-color:rgb(239, 233, 34);
+    background-color:rgba(238, 238, 238, 0.533);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
